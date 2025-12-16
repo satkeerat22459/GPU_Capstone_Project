@@ -1,0 +1,11 @@
+*.exe
+*.out
+batch_proc
+*.o
+data/input/*
+data/output_gray/*
+data/output_blur/*
+data/output_mirror/*
+!data/input/.gitkeep
+__pycache__/
+*.png
