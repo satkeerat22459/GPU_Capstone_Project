@@ -1,5 +1,6 @@
 NVCC = nvcc
-LDFLAGS = -lnppicc -lnppc -lnppig -lnppidei
+
+LDFLAGS = -lnppicc -lnppc -lnppig -lnppidei -lnppif
 CFLAGS = -std=c++17 -O3
 
 SRC = src/main.cu
