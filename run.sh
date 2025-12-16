@@ -27,7 +27,7 @@ rm -f batch_proc
 make
 
 if [ ! -f ./batch_proc ]; then
-    echo "❌ Compilation failed."
+    echo "Compilation failed."
     exit 1
 fi
 
@@ -46,4 +46,4 @@ echo "Running Filter: Blur..."
 echo "Running Filter: Mirror..."
 ./batch_proc data/input data/output_mirror mirror
 
-echo "✅ All filters applied. Results in data/output_* folders."
+echo "All filters applied. Results in data/output_* folders."
